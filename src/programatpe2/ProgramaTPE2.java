@@ -18,14 +18,14 @@ public class ProgramaTPE2 {
      */
     public static void main(String[] args) {
         
-        No ini = new No (new Vetor(1,3));
+        No ini = new No (new PFisica("Guilherme","Qualquercoisa", 3645));
         Lista lista = new Lista(ini);
         
         //
-        lista.insIni(new No(new Vetor(5,9)));
-        lista.insIni(new No(new Vetor(2,4)));
-        lista.insIni(new No(new Vetor(3,5)));
-        lista.insFin(new No(new Vetor(4,9)));
+        lista.insIni(new No(new PJuridica("Guilherme1","Qualquercoisa1", 6500)));
+        lista.insIni(new No(new PFisica("Guilherme2","Qualquercoisa2", 200)));
+        lista.insIni(new No(new PJuridica("Guilherme3","Qualquercoisa3", 200)));
+        lista.insFin(new No(new PFisica("Guilherme4","Qualquercoisa4", 1456)));
         
         
         lista.posIni();       
